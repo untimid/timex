@@ -1,0 +1,170 @@
+.main-slider {
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  min-height: 40vw;
+  background-color: blue;
+  background-image: url("../images/main-slider-boat.jpg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+}
+
+.main-slider-shadow {
+  position: relative;
+  z-index: 10;
+  width: 36.5%;
+  height: auto;
+  padding-top: 1.4%;
+  padding-left: 8.5%;
+  transform: skewX(-15deg);
+  background-image: linear-gradient(to top, #375697, #246ba5);
+}
+
+.main-slider-shadow-bg {
+  position: absolute;
+  top: -1px;
+  left: -33%;
+  display: block;
+  width: 34%;
+  height: 54%;
+  background-image: linear-gradient(to top right, #375697, #246ba5);
+}
+
+.main-slider-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+  transform: skewX(15deg);
+}
+
+.main-slider-content h1 {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-size: 26px;
+  line-height: 1.31;
+  flex-shrink: 2;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+.main-slider-content p {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-size: 72px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  letter-spacing: -0.2px;
+  color: #fff;
+}
+
+.main-slider-content-btn {
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  width: 200px;
+  padding-top: 14.5px;
+  padding-bottom: 14.5px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.main-slider-rect {
+  position: absolute;
+  top: 40%;
+  left: 100%;
+  width: 9%;
+  height: 63%;
+  opacity: 0.6;
+  background-color: #c1974f;
+}
+
+.main-slider-extra {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 90%;
+  padding-right: 10%;
+  padding-bottom: 20px;
+}
+
+.main-slider-phone {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  padding-right: 15%;
+}
+
+.main-slider-phone1 {
+  padding-right: 20px;
+}
+
+.main-slider-phone1,
+.main-slider-phone2 {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-size: 32px;
+  line-height: 1.13;
+  padding: 0;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+.main-slider-phone1 p,
+.main-slider-phone2 p {
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.57;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.1px;
+  opacity: 0.95;
+}
+
+.main-slider-controls-left,
+.news-controls-left {
+  font-size: 0;
+  width: 34px;
+  height: 24px;
+  border: none;
+  background-color: transparent;
+  background-image: url("../images/arrow-left.png");
+}
+
+.main-slider-controls-right,
+.news-controls-right {
+  font-size: 0;
+  width: 34px;
+  height: 24px;
+  border: none;
+  background-color: transparent;
+  background-image: url("../images/arrow-right.png");
+}
+
+.main-slider-controls-left:hover,
+.news-controls-left:hover,
+.main-slider-controls-right:hover,
+.news-controls-right:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 850px) {
+  .main-slider-content p {
+    font-size: 60px;
+  }
+
+  .main-slider-content-btn {
+    font-size: 12px;
+    width: 150px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+}

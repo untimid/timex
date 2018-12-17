@@ -1,0 +1,114 @@
+.partners-navigation-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 93vw;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.partners-navigation {
+  display: inline-block;
+}
+
+.partners-navigation-link {
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.partners-navigation-link img {
+  width: 26%;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-left: 6%;
+}
+
+.partners-navigation-item {
+  position: relative;
+  width: calc(100vw / 6);
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.partners-submenu,
+.partners-services-submenu {
+  position: absolute;
+  top: 117%;
+  left: -42%;
+  z-index: 10;
+  display: flex;
+  visibility: hidden;
+  flex-direction: column;
+  width: 8vw;
+  padding: 0;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  padding-left: 2vw;
+  list-style: none;
+  cursor: pointer;
+  transition: 0.5s;
+  transform: skewX(-15deg);
+  opacity: 0;
+  background-image: linear-gradient(to top, #375697, #246ba5);
+}
+
+.partners-services-submenu {
+  width: 11vw;
+}
+
+.partners-navigation-about:hover .partners-submenu,
+.partners-navigation-services:hover .partners-services-submenu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.partners-navigation-item .header-info-form-call {
+  display: inline-block;
+  width: 11vw;
+  padding: 0;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 3px;
+  background-image: linear-gradient(to top, #c29a52, #b8803c);
+}
+
+.partners-banner {
+  background-image: url("../images/partners-banner.jpg");
+}
+
+.partners-submenu-link {
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-size: 18px;
+  display: inline-block;
+  padding-bottom: 5%;
+  padding-left: 1%;
+  transform: skewX(15deg);
+  text-decoration: none;
+  color: #fff;
+}
+
+.partners-submenu-link:hover {
+  border-bottom: 0.5px solid #fff;
+}
+
+.navigation-link-action-gold {
+  color: #c1974f;
+  font-weight: bold;
+}
+
+.partners-navigation-link:hover {
+  border-bottom: 0.5px solid #000;
+  opacity: 0.8;
+}
+
+.navigation-link-action-gold:hover {
+  border-bottom: 0.5px solid #c1974f;
+}

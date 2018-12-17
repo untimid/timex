@@ -1,0 +1,38 @@
+.cont-404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../images/404.jpg");
+}
+
+.content-404 {
+  padding-left: 10%;
+  padding-bottom: 10%;
+}
+
+.navigation-404 {
+  justify-content: flex-end;
+  width: 80%;
+  padding-left: 10%;
+}
+
+.navigation-logo {
+  margin-right: auto;
+}
+
+.navigation-404 li {
+  padding-right: 10px;
+}
+
+.content-404 p {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  color: #fff;
+}
+
+.content-404-bold {
+  font-size: 72px;
+}
+
+.content-404-normal {
+  font-size: 26px;
+}

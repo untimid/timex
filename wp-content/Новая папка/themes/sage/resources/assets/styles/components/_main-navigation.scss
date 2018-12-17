@@ -1,0 +1,111 @@
+.main-navigation-search {
+  position: absolute;
+  z-index: 10;
+  right: 70%;
+  visibility: hidden;
+  transition: 0.2s;
+  opacity: 0;
+
+  &:hover,
+  &:active,
+  &:focus {
+    visibility: visible;
+    opacity: 0.8;
+  }
+}
+
+.main-navigation-search-link {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.main-navigation-search-link::before {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  content: " ";
+  background-image: url("../images/preheader-loupe.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-navigation-search-link:hover + .main-navigation-search {
+  visibility: visible;
+  opacity: 0.8;
+}
+
+.main-navigation-list {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 74%;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  padding-right: 10%;
+  padding-bottom: 10px;
+  padding-left: 16%;
+  list-style: none;
+  opacity: 0.85;
+  background-color: #fff;
+}
+
+.main-navigation-item a {
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.main-navigation-list .header-info-form-call {
+  display: inline-block;
+  width: 134%;
+  min-width: 150px;
+  padding: 0;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  background-image: linear-gradient(to top, #c29a52, #b8803c);
+}
+
+.main-navigation-about {
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.main-navigation-item {
+  position: relative;
+}
+
+.main-navigation-link {
+  transition: 0.5s;
+  padding-right: 5px;
+}
+
+.main-navigation-link:hover {
+  opacity: 0.6;
+  border-bottom: 0.5px solid #000;
+}
+
+@media only screen and (max-width: 850px) {
+  .main-navigation-list .header-info-form-call {
+    font-size: 14px;
+    width: 114%;
+    min-width: 110px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .main-navigation-item a {
+    font-size: 14px;
+  }
+}

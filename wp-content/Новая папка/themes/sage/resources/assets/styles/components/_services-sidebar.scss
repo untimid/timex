@@ -1,0 +1,39 @@
+.services-sidebar {
+  position: relative;
+  width: 26%;
+  height: auto;
+}
+
+.services-sidebar-circle {
+  position: relative;
+  z-index: 1;
+  width: 70px;
+  height: 70px;
+  opacity: 0.6;
+  border-radius: 50%;
+  background-image: linear-gradient(to top, #c29a52, #b8803c);
+}
+
+.services-sidebar-icon {
+  position: absolute;
+  z-index: 100;
+  top: 16px;
+  left: 23px;
+  width: 60px;
+  height: 60px;
+  background-image: url("../images/icon-calc.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.services-sidebar-link {
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.33;
+  display: inline-block;
+  padding-top: 30px;
+  letter-spacing: 0.1px;
+  opacity: 0.8;
+  color: #000;
+}

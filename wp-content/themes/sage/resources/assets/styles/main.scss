@@ -1,0 +1,47 @@
+/**
+ * Переменные и миксины
+ * @see https://sass-lang.com/guide#topic-2
+ * @see https://sass-lang.com/guide#topic-6
+ */
+@import "common/variables";
+@import "common/mixins";
+
+/**
+ * Имена с префиксом `~` для импорта npm модулей
+ * @see https://github.com/webpack-contrib/sass-loader#imports
+ *
+ * (можно импортировать стили jquery плагинов)
+ */
+@import "~normalize.css";
+
+/**
+ * Стили для рефакторинга
+ * (нужно разбить на глобальные стили и выделить модули)
+ */
+@import "common/global";
+
+/**
+ * Основные стили проекта
+ * (разбиты на более мелкие файлы - модули)
+ */
+@import "common/fonts";
+@import "components/feature-list";
+@import "components/fs-banner";
+@import "components/header";
+@import "components/key-indicators";
+@import "components/main-footer";
+@import "components/main-header";
+@import "components/main-navigation";
+@import "components/main-slider";
+@import "components/modal";
+@import "components/navbar";
+@import "components/news-main";
+@import "components/partners-list";
+@import "components/search";
+@import "components/services";
+@import "components/services-sidebar";
+@import "components/submenu";
+@import "components/tab";
+@import "components/page-404/index";
+@import "components/page-about/index";
+@import "components/page-partners/index";

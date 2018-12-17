@@ -1,0 +1,218 @@
+// Глобальные стили
+// (нужен рефакторинг)
+
+body {
+  font-family: "Proxima Nova", Arial, sans-serif;
+  overflow-x: hidden;
+  width: calc(98% - 4px);
+  margin: 0;
+  padding: 0;
+  padding-right: calc(1% + 2px);
+  padding-left: calc(1% + 2px);
+}
+
+.visually-hidden {
+  @include visually-hidden();
+}
+
+#p_prldr {
+  position: fixed;
+  z-index: 3000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to top, #375697, #246ba5);
+}
+
+#p_prldr .svg_anm {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  margin: -16px 0 0 -16px;
+  background: url(../images/pufff.svg) center center no-repeat;
+  background-size: 41px;
+}
+
+.services-cont2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.news-main,
+.basic-banner {
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  height: auto;
+  padding-top: 0;
+  padding-left: 0;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+}
+
+.news-main {
+  background-image: url("../images/baner-news.jpg");
+}
+
+.feature-banner {
+  min-height: 350px;
+  max-height: 50vh;
+  margin-bottom: 100px;
+  background-image: url("../images/baner-hands-2.jpg");
+  background-size: auto;
+}
+
+.news-main-shadow {
+  position: relative;
+  z-index: 10;
+  width: 71%;
+  height: 71%;
+  transform: skewX(-15deg);
+  background-image: linear-gradient(to top, #375697, #246ba5);
+}
+
+.conf-section {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.pservices {
+  margin-top: 10%;
+}
+
+.pservices-banner {
+  background-image: url("../images/services-banner.jpg");
+  background-size: auto;
+  background-position: top right;
+}
+
+.pservices-banner-shadow {
+  width: 40.5%;
+  min-height: 20vh;
+}
+
+.pservices-banner-info {
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+}
+
+.pservices-banner-content {
+  width: 90%;
+  padding-top: 6%;
+}
+
+.pservices-extra-text {
+  color: #000;
+  opacity: 0.8;
+}
+
+.pcontact-banner {
+  background-image: url("../images/baner-coffee.jpg");
+  background-position: center right;
+}
+
+.contpre {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-size: 40px;
+  line-height: 35px;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  width: 250px;
+  height: 100px;
+  margin-top: -75px;
+  margin-left: -125px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.about,
+.services,
+.services-banner,
+.feature,
+.news,
+.partners,
+.basic-section {
+  overflow-x: hidden;
+  width: calc(86% - 4px);
+  margin: 0;
+  padding: 0;
+  padding-top: 83px;
+  padding-right: calc(7% + 2px);
+  padding-left: calc(7% + 2px);
+}
+
+.double-slash {
+  font-size: 56px;
+  font-weight: bold;
+  padding-right: 10px;
+  letter-spacing: -3px;
+  color: #c1974f;
+}
+
+.basic-title {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-size: 56px;
+  line-height: 0.96;
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 30px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.about-cont,
+.services-cont1,
+.basic-cont {
+  display: flex;
+  width: 100%;
+}
+
+.about-basic,
+.services-text {
+  width: 71%;
+  padding-right: 3%;
+}
+
+.extra-text {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-size: 26px;
+  line-height: 1.31;
+  letter-spacing: 0.5px;
+  opacity: 0.9;
+  color: #c68f3a;
+}
+
+.basic-text {
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.56;
+  opacity: 0.85;
+  color: #000;
+}
+
+.about-more {
+  width: 20%;
+  padding: 3%;
+  color: #fff;
+  border-radius: 3px;
+  background-image: linear-gradient(to top, #375697, #246ba5);
+}
+
+.about-more a {
+  color: #fff;
+}
+
+.empty-flex {
+  min-width: calc(100% / 5 - 15px);
+  height: 0;
+  text-decoration: none;
+  opacity: 0;
+  border: 0;
+}

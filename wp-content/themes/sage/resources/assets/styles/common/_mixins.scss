@@ -1,0 +1,60 @@
+@mixin visually-hidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin darken-background($background, $opacity: 1) {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    display: block;
+    background: $background;
+    pointer-events: none;
+    opacity: $opacity;
+    transition: 0.4s ease-in-out;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@mixin gradient-underline() {
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    transform: skew(45deg);
+    background-image: repeating-linear-gradient(to left top, transparent 0%, transparent 20%, $blue 20%, $blue 100%);
+    background-size: 10px;
+    background-position: center;
+  }
+}

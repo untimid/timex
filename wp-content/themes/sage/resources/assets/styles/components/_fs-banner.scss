@@ -1,0 +1,67 @@
+.fs-banner {
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  min-height: 20vw;
+  background-color: blue;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+}
+
+.fs-banner-shadow {
+  position: relative;
+  z-index: 10;
+  width: 36.5%;
+  height: auto;
+  padding-top: 1.4%;
+  padding-left: 8.5%;
+  transform: skewX(-15deg);
+  background-image: linear-gradient(to top, #375697, #246ba5);
+}
+
+.fs-banner-shadow-bg {
+  position: absolute;
+  top: -1px;
+  left: -33%;
+  display: block;
+  width: 34%;
+  height: 54%;
+  background-image: linear-gradient(to top right, #375697, #246ba5);
+}
+
+.fs-banner-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 55%;
+}
+
+.fs-banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+  transform: skewX(15deg);
+}
+
+.fs-banner-rect {
+  position: absolute;
+  top: 40%;
+  left: 100%;
+  width: 9%;
+  height: 63%;
+  opacity: 0.6;
+  background-color: #c1974f;
+}
+
+.fs-banner-extra {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 90%;
+  padding-right: 10%;
+  padding-bottom: 20px;
+}

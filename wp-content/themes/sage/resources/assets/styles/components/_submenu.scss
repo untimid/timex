@@ -1,0 +1,48 @@
+.submenu {
+  position: absolute;
+  top: 3vw;
+  display: flex;
+  visibility: hidden;
+  flex-direction: column;
+  padding: 0;
+  list-style: none;
+  cursor: pointer;
+  transition: 0.5s;
+  transform: skewX(-15deg);
+  opacity: 0;
+  background-image: linear-gradient(to top, #375697, #246ba5);
+}
+
+.about-submenu {
+  left: -2vw;
+  width: 8vw;
+  padding-top: 0.5vw;
+  padding-left: 2vw;
+}
+
+.services-submenu {
+  left: -5vw;
+  width: 11vw;
+  padding-left: 2vw;
+}
+
+.submenu-item {
+  display: inline-block;
+  padding-bottom: 10px;
+  transform: skewX(15deg);
+}
+
+.submenu-item a {
+  padding-left: 1%;
+  color: #fff;
+}
+
+.submenu-item a:hover {
+  border-bottom: 0.5px solid #fff;
+}
+
+.navigation-about:hover .about-submenu,
+.navigation-services:hover .services-submenu {
+  visibility: visible;
+  opacity: 1;
+}

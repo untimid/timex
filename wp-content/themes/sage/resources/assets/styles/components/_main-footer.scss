@@ -1,0 +1,131 @@
+/* stylelint-disable */
+
+.main-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 2.5%;
+  padding-right: 8%;
+  padding-bottom: 4%;
+  padding-left: 8%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: calc((100% - 10px) / 4.6);
+  padding-right: 20px;
+}
+
+.main-footer-info {
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  opacity: 0.9;
+  color: #000;
+}
+
+.main-footer-info a {
+  display: inline-block;
+  height: auto;
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: 0.9;
+  color: #000;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  img {
+    width: 43%;
+    min-width: 60px;
+  }
+}
+
+.main-footer-info-text {
+  text-transform: none;
+}
+
+.main-footer-navigation-list,
+.main-footer-services-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: auto;
+  list-style: none;
+}
+
+.main-footer-navigation-list a,
+.main-footer-services-list a {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  opacity: 0.8;
+  color: #000;
+
+  &:hover {
+    opacity: 1;
+    border-bottom: 0.5px solid #000;
+  }
+}
+
+.main-footer-navigation-email a::after {
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  padding-left: 10%;
+  content: " ";
+  opacity: 0.6;
+  background-image: url("../images/footer-mail.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.main-footer-navigation-email a:hover::after {
+  opacity: 1;
+}
+
+.main-footer-contacts {
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: auto;
+  letter-spacing: 0.1px;
+  opacity: 0.8;
+  color: #000;
+}
+
+.main-footer-contacts-phone-bold {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-size: 32px;
+  line-height: 1.13;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+
+.footer-double-slash {
+  font-size: 28px;
+  font-weight: 800;
+  display: inline-block;
+  padding-top: 1%;
+  padding-right: 5%;
+  vertical-align: middle;
+  letter-spacing: -2px;
+  color: #b9823d;
+}

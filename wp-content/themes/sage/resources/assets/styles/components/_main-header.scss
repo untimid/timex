@@ -1,0 +1,85 @@
+.main-header {
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-header-pre {
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 86%;
+  padding: 0;
+  padding-top: 10px;
+  padding-right: 7%;
+  padding-bottom: 10px;
+  padding-left: 7%;
+  box-shadow: 0 4px 8px -3px #dedede;
+}
+
+.main-header-pre-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-width: calc(70% - 20px);
+}
+
+.pre-header-item {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.pre-header-item-bold {
+  font-weight: bold;
+}
+
+.main-header-pre-nav {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.main-header-pre-nav a {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+}
+
+.pre-header-login::before {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+  content: " ";
+  background-image: url("../images/preheader-avatar.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-info-form-question::before {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+  content: " ";
+  background-image: url("../images/preheader-mail.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-header-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 55%;
+}
+
+.main-header-info-link img {
+  width: 30%;
+  height: auto;
+}

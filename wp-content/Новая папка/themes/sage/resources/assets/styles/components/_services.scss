@@ -1,0 +1,249 @@
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 71%;
+  margin: 0;
+  padding: 0;
+  padding-right: 3%;
+  list-style: none;
+}
+
+.services-help {
+  width: 26%;
+}
+
+.services-help-title {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.57;
+  opacity: 0.8;
+  color: #000;
+}
+
+.services-help-text {
+  font-size: 14px;
+  line-height: 1.57;
+  opacity: 0.8;
+  color: #000;
+}
+
+.services-help-link {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.6;
+  display: inline-block;
+  width: 200px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 3px;
+  background-image: linear-gradient(to top, #c29a52, #b8803c);
+}
+
+.services-item {
+  display: inline-block;
+  width: 30%;
+  min-width: 250px;
+  height: auto;
+  padding-right: 1%;
+  padding-bottom: 1%;
+}
+
+.services-item-cont {
+  font-family: "BebasNeue", Arial, sans-serif;
+  font-size: 32px;
+  line-height: 1.25;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  height: 20vw;
+  padding-top: 10%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  text-align: center;
+  vertical-align: bottom;
+  border-radius: 3px;
+  background-color: #ebebeb;
+}
+
+.services-item-slash {
+  font-size: 40px;
+  font-weight: 800;
+  padding-right: 20px;
+  vertical-align: sub;
+  letter-spacing: -3.5px;
+  color: #c68f3a;
+}
+
+.services-item-cont-text {
+  text-align: left;
+}
+
+.services-item-circle {
+  align-self: center;
+  width: 60%;
+  padding-top: 60%;
+  transition: 0.3s;
+  border-radius: 50%;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+
+.services-item-cont a {
+  font-family: "Proxima-Nova", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.44;
+  text-decoration: none;
+  opacity: 0.8;
+  color: #000;
+}
+
+.services-item-cont:hover,
+.services-item-cont:hover .services-item-slash {
+  color: #fff;
+}
+
+.services-item-cont:hover a {
+  opacity: 1;
+  color: #fff;
+}
+
+.services-item-cont:hover .services-item-circle {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.services-item-cont-bg {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  opacity: 0;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: auto;
+}
+
+.services-item-cont-bg-link {
+  position: relative;
+  z-index: 100;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.services-item-cont:hover .services-item-cont-bg {
+  z-index: -1;
+  opacity: 1;
+}
+
+.services-banner {
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  min-height: 27vw;
+  padding-top: 0;
+  padding-left: 0;
+  background-image: url("../images/baner-hands.jpg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+}
+
+.services-banner-shadow,
+.basic-banner-shadow {
+  position: relative;
+  z-index: 10;
+  width: 71%;
+  height: auto;
+  transform: skewX(-15deg);
+  background-image: linear-gradient(to top, #375697, #246ba5);
+}
+
+.feature-banner-shadow {
+  width: 55%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.services-banner-shadow-bg,
+.basic-banner-shadow-bg {
+  position: absolute;
+  top: 0;
+  left: -21%;
+  display: block;
+  width: 35%;
+  height: 100%;
+  background-image: linear-gradient(to top, #375697, #246ba5);
+}
+
+.services-banner-shadow-content,
+.basic-banner-shadow-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  height: 80%;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  padding-left: 10%;
+  transform: skewX(15deg);
+}
+
+.services-banner-shadow-rect,
+.basic-banner-shadow-rect {
+  position: absolute;
+  top: 40%;
+  left: 100%;
+  width: 8%;
+  height: 63%;
+  opacity: 0.6;
+  background-color: #c1974f;
+}
+
+.services-banner-title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.33;
+  width: 50%;
+  letter-spacing: 0.1px;
+  color: #fff;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
+}
+
+.services-banner-shadow-title,
+.basic-banner-shadow-title {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-size: 56px;
+  line-height: 0.96;
+  width: 95%;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.services-banner-shadow-title span {
+  font-size: 26px;
+  line-height: 1.31;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+.services-banner-shadow-text {
+  font-size: 18px;
+  line-height: 1.56;
+  opacity: 0.9;
+  color: #fff;
+}

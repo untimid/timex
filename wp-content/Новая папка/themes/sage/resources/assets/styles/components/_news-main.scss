@@ -1,0 +1,84 @@
+
+.news-main-shadow-bg {
+  position: absolute;
+  top: 0;
+  left: -22%;
+  display: block;
+  width: 23%;
+  height: 100%;
+  background-image: linear-gradient(to top, #375697, #246ba5);
+}
+
+.news-main-shadow-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 72%;
+  height: 80%;
+  padding-top: 6%;
+  padding-bottom: 8%;
+  padding-left: 10%;
+  transform: skewX(15deg);
+}
+
+.news-main-shadow-rect {
+  position: absolute;
+  top: 40%;
+  left: 100%;
+  width: 9%;
+  height: 63%;
+  opacity: 0.6;
+  background-color: #c1974f;
+}
+
+.news-main-title a {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-size: 40px;
+  line-height: 1.1;
+  position: relative;
+  text-decoration: none;
+  opacity: 0.9;
+  color: #fff;
+}
+
+.news-main-title span {
+  font-size: 46px;
+  position: absolute;
+  top: 11%;
+  left: -13%;
+  letter-spacing: -1px;
+}
+
+.main-post-date {
+  font-size: 14px;
+  line-height: 1.57;
+  margin-bottom: 10%;
+  letter-spacing: 0.1px;
+  opacity: 0.95;
+  color: #fff;
+}
+
+.news-main-text {
+  font-size: 18px;
+  line-height: 1.56;
+  margin-bottom: 10%;
+  opacity: 0.9;
+  color: #fff;
+}
+
+.news-main-other {
+  align-self: flex-end;
+  margin-right: 3%;
+  margin-left: auto;
+  padding-bottom: 3%;
+}
+
+.news-main-other-link {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.33;
+  text-decoration: none;
+  letter-spacing: 0.1px;
+  opacity: 0.9;
+  color: #fff;
+}

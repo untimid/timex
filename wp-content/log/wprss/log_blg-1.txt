@@ -1,0 +1,155 @@
+[15-12-2018 23:56:27] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 00:50:59] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 01:51:08] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 02:51:11] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 03:50:54] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 04:51:10] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 05:51:05] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 06:51:11] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 07:50:56] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 08:51:11] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 09:50:57] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 10:50:57] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 11:51:05] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 12:50:58] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 13:51:02] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 14:50:59] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 15:50:59] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 16:50:51] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 17:51:15] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 18:51:06] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 19:50:53] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 21:29:54] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 21:51:03] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 22:51:07] [Error] WPRSS > 2:
+Sorted: 
+
+
+[16-12-2018 23:51:02] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-12-2018 00:50:55] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-12-2018 01:50:50] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-12-2018 02:50:48] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-12-2018 03:51:02] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-12-2018 07:02:15] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.tks.ru/news/nearby". A feed could not be found at http://www.tks.ru/news/nearby. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed.
+
+[17-12-2018 07:02:15] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-12-2018 07:51:29] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-12-2018 09:44:04] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-12-2018 09:54:17] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-12-2018 14:13:32] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-12-2018 14:53:38] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-12-2018 15:54:01] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-12-2018 16:50:58] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-12-2018 17:51:03] [Error] WPRSS > 2:
+Sorted: 
+
+

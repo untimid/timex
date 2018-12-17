@@ -1,0 +1,24 @@
+.partners-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: auto;
+  list-style: none;
+}
+
+.partners-item {
+  overflow: hidden;
+  min-width: calc(100% / 5 - 15px);
+  padding-right: 15px;
+  padding-bottom: 2%;
+  opacity: 0.5;
+}
+
+.partners-item img {
+  max-width: 100px;
+}
+
+.partners-item:hover {
+  opacity: 1;
+}

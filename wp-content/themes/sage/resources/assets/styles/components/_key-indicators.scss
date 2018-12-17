@@ -1,0 +1,41 @@
+.key-indicators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+  padding: 0;
+  padding-top: 1%;
+  padding-right: 3%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  background-color: #ebebeb;
+}
+
+.key-indicators-item {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 33%;
+}
+
+.key-indicators-item .double-slash {
+  font-size: 40px;
+  font-weight: bold;
+  padding-right: 10px;
+  letter-spacing: -3px;
+  color: #c1974f;
+}
+
+.key-indicators-text-bold {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-size: 40px;
+  line-height: 1.15;
+  color: #000;
+}
+
+.key-indicators-text {
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-size: 18px;
+  padding-left: 18px;
+}

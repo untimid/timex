@@ -1,0 +1,227 @@
+.about-slider {
+  background-color: blue;
+  background-image: url("../images/boat-and-sunrise.jpg");
+  background-position: right bottom;
+  background-size: contain;
+}
+
+.about-slider-shadow {
+  width: 39.5%;
+  padding-left: 5.5%;
+}
+
+.about-slider-content {
+  width: 60%;
+}
+
+.about-slider-content .about-slider-content-normal {
+  font-size: 26px;
+}
+
+.action-navigation {
+  font-weight: bold;
+}
+
+.about-key-indicators {
+  padding: 0;
+  background-color: inherit;
+}
+
+.about-key-indicators-item {
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 28%;
+  padding-bottom: 4%;
+}
+
+.about-key-indicators-text {
+  padding-left: 0;
+}
+
+.about-key-indicators-text-bold {
+  font-size: 56px;
+  opacity: 0.9;
+  color: #c68f3a;
+}
+
+.basic-list-item {
+  color: #2569a3;
+}
+
+.basic-list-item span {
+  color: #000;
+}
+
+.about-about-more {
+  line-height: 1.4;
+  align-self: flex-start;
+}
+
+.about-about-more-title {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.geo-map {
+  width: 100%;
+  height: 70vh;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  border-radius: 3px;
+  background-color: #ebebeb;
+  background-image: url("../images/map-world.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.geo-list {
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 90px;
+  max-height: 23vh;
+  margin-bottom: 90px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.geo-item {
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.timex-doc {
+  width: 30%;
+  height: 41%;
+  background-image: url("../images/icon-certificate.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.feature-banner-shadow-title,
+.feature-banner-shadow-content a {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-size: 56px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  letter-spacing: -0.2px;
+  color: #fff;
+}
+
+.feature-banner-shadow-content a {
+  font-size: 26px;
+  text-decoration: none;
+  border-bottom: 0.5px solid #fff;
+}
+
+.philosophy-double-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.philosophy-list-cont {
+  width: 35%;
+  padding-right: 5%;
+}
+
+.philosophy-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
+}
+
+.philosophy-list-title {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-size: 32px;
+  line-height: 1.375;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.philosophy-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.icon-philosophy-item {
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/icon-target.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.icon-principles-item {
+  background-image: url("../images/icon-target.png");
+}
+
+.icon-progress-item {
+  background-image: url("../images/icon-cup.png");
+}
+
+.philosophy-item span {
+  width: calc(80% - 10px);
+  padding-left: 10px;
+}
+
+.cooperation-banner {
+  margin-top: 100px;
+  background-image: url("../images/baner-track.jpg");
+  background-position: 100% 65%;
+  background-size: auto;
+}
+
+.cooperation-banner-shadow {
+  width: 40.5%;
+  min-height: 20vh;
+}
+
+.cooperation-banner-content {
+  width: 90%;
+  padding-top: 6%;
+}
+
+.cooperation-banner-title {
+  width: 90%;
+}
+
+.cooperation-banner-title,
+.cooperation-banner-text,
+.cooperation-banner-info-title {
+  color: #fff;
+}
+
+.cooperation-banner-info {
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+}
+
+.cooperation-banner-info-link {
+  font-weight: bold;
+  display: inline-block;
+  width: 57%;
+  padding: 0;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-image: linear-gradient(to top, #c29a52, #b8803c);
+}
