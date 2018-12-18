@@ -1,6 +1,7 @@
 <?php $__env->startSection('content'); ?>
 <?php while(have_posts()): ?> <?php the_post() ?>
 
+<?php wp_nav_menu(['theme_location' => 'submenu', 'menu_class' => 'nav2 serv-nav']) ?>
 <section class="services pservices" id="section2">
   <span class="double-slash">//</span>
   <h2 class="services-title basic-title" id="services">Наши услуги</h2>

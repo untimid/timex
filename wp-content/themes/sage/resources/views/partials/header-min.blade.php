@@ -1,3 +1,6 @@
+
+@php $logo = get_field('логотип') @endphp
+@if ($logo)
 <div id="p_prldr"><div class="contpre"><span class="svg_anm"></span><br>Timex broker</div></div>
 
 <header class="main-header">
@@ -14,6 +17,8 @@
       <a href="#" class="pre-header-login"><span class="pre-header-login-text">Личный кабинет</span></a>
     </div>
   </div>
+  <a class="header-logo" href="{{ $logo['ссылка'] }}">
+    <img src="{{ $logo['изображение'] }}" width="{{ $logo['ширина'] }}" height="{{ $logo['высота'] }}" alt="Логотип компании 'Timex broker'"></a>
 
   @if (has_nav_menu('primary_navigation'))
     {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'main-navigation-list']) !!}
@@ -21,3 +26,4 @@
     @include('partials._fake-menu')
   @endif
 </header>
+@endif

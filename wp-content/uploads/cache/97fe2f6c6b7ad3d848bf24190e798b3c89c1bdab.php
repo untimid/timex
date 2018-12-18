@@ -18,61 +18,15 @@
     </div>
     <div class="main-slider cont-404">
 
-      <nav class="main-navigation">
-          <ul class="main-navigation-list navigation-404">
-            <li class="main-navigation-item navigation-logo">
-            <a class="logo-404" href="index.html">
-            <img src="<?= App\asset_path('images/logo.png'); ?>" width="150" height="60" alt="Логотип компании 'Timex broker'"></a>
-            </li>
-            <li class="main-navigation-item navigation-about">
-              <a class="main-navigation-about main-navigation-link" href="company.html" >О компании</a>
-              <ul class="about-submenu submenu">
-                <li class="about-submenu-item submenu-item">
-                  <a class="about-submenu-link submenu-link" href="company.html">Компания</a>
-                </li>
-                <li class="about-submenu-item submenu-item">
-                  <a class="about-submenu-link submenu-link" href="news.html">Новости</a>
-                </li>
-              </ul>
-            </li>
-            <li class="main-navigation-item navigation-services">
-              <a class="main-navigation-link" href="services.html">Услуги</a>
-              <ul class="services-submenu submenu">
-                <!--1-->
-                <li class="services-submenu-item submenu-item">
-                  <a class="services-submenu-link submenu-link" href="customs.html">Таможенное декларирование</a>
-                </li>
-                <!--2-->
-                <li class="services-submenu-item submenu-item">
-                  <a class="services-submenu-link submenu-link" href="carriage.html">Транспортно-экспедиторские услуги</a>
-                </li>
-                <!--3-->
-                <li class="services-submenu-item submenu-item">
-                  <a class="services-submenu-link submenu-link" href="storage.html">Хранение грузов</a>
-                </li>
-                <!--4-->
-                <li class="services-submenu-item submenu-item">
-                  <a class="services-submenu-link submenu-link" href="news.html">Страхование грузов</a>
-                </li>
-                <!--5-->
-                <li class="services-submenu-item submenu-item">
-                  <a class="services-submenu-link submenu-link" href="news.html">Сертификация</a>
-                </li>
-                <!--6-->
-                <li class="services-submenu-item submenu-item">
-                  <a class="services-submenu-link submenu-link" href="news.html">Консалтинг</a>
-                </li>
-              </ul>
-            </li>
-            <li class="main-navigation-item navigation-partners">
-              <a class="main-navigation-link" href="partners.html">Партнеры</a></li>
-            <li class="main-navigation-item navigation-contacts">
-              <a class="main-navigation-link" href="contact.html">Контакты</a></li>
-            <li class="main-navigation-item">
-              <a class="header-info-form-call" href="call.html">Заказать звонок
-              </a></li>
-          </ul>
-      </nav>
+      <a class="header-logo" href="<?php echo e(home_url('/')); ?>">
+        <img src="<?= App\asset_path('images/logo.png'); ?>" width="151" height="61" alt="Логотип компании 'Timex broker'"></a>
+
+      <?php if(has_nav_menu('primary_navigation')): ?>
+        <?php echo wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'main-navigation-list']); ?>
+
+      <?php else: ?>
+        <?php echo $__env->make('partials._fake-menu', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+      <?php endif; ?>
         <div class="content-404">
           <p class="content-404-normal">404</p>
           <p class="content-404-bold">Страница не существует или удалена</p>

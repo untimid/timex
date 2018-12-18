@@ -1,0 +1,57 @@
+.nav2 {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style: none;
+  width: 85%;
+  min-height: 65px;
+  background-color: #2569a4;
+  align-items: center;
+  top: 48px;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+.nav2 li:not(:last-of-type)::after {
+  content: "|";
+  font-size: 22px;
+  width: 75px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+}
+
+.nav2 li {
+  min-width: 35%;
+}
+
+.nav2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav2 a:hover {
+  border-bottom: 0.5px solid #fff;
+}
+
+.serv-nav {
+  position: relative;
+  top: 10%;
+  width: 88%;
+  padding-left: 7%;
+}
+
+.serv-nav li {
+  min-width: 25%;
+}
+
+.about-nav {
+  justify-content: center;
+}
+
+.about-nav li {
+  min-width: 25%;
+}

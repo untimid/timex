@@ -153,3 +153,141 @@ Sorted:
 Sorted: 
 
 
+[17-12-2018 18:50:50] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-12-2018 19:51:02] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-12-2018 20:54:42] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-12-2018 21:54:41] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-12-2018 22:51:22] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-12-2018 23:50:55] [Error] WPRSS > 2:
+Sorted: 
+
+
+[18-12-2018 00:50:57] [Error] WPRSS > 2:
+Sorted: 
+
+
+[18-12-2018 01:50:52] [Error] WPRSS > 2:
+Sorted: 
+
+
+[18-12-2018 02:59:24] [Error] WPRSS > 2:
+Sorted: 
+
+
+[18-12-2018 03:51:00] [Error] WPRSS > 2:
+Sorted: 
+
+
+[18-12-2018 04:51:17] [Error] WPRSS > 2:
+Sorted: 
+
+
+[18-12-2018 05:51:16] [Error] WPRSS > 2:
+Sorted: 
+
+
+[18-12-2018 06:51:13] [Error] WPRSS > 2:
+Sorted: 
+
+
+[18-12-2018 07:50:46] [Error] WPRSS > 2:
+Sorted: 
+
+
+[18-12-2018 08:51:13] [Error] WPRSS > 2:
+Sorted: 
+
+
+[18-12-2018 09:51:14] [Error] WPRSS > 2:
+Sorted: 
+
+
+[18-12-2018 10:51:25] [Error] WPRSS > 2:
+Sorted: 
+
+
+[18-12-2018 11:51:16] [Error] WPRSS > 2:
+Sorted: 
+
+
+[18-12-2018 12:51:00] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.tks.ru/news/nearby". The resource could not be retrieved because of a client error with code 404
+Server returned 996 characters, of which 150 are below:
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.
+
+[18-12-2018 12:51:00] [Error] WPRSS > 2:
+Sorted: 
+
+
+[18-12-2018 13:51:10] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.tks.ru/news/nearby". The resource could not be retrieved because of a client error with code 404
+Server returned 996 characters, of which 150 are below:
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.
+
+[18-12-2018 13:51:10] [Error] WPRSS > 2:
+Sorted: 
+
+
+[18-12-2018 14:51:21] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.tks.ru/news/nearby". The resource could not be retrieved because of a client error with code 404
+Server returned 996 characters, of which 150 are below:
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.
+
+[18-12-2018 14:51:21] [Error] WPRSS > 2:
+Sorted: 
+
+
+[18-12-2018 15:51:10] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.tks.ru/news/nearby". The resource could not be retrieved because of a client error with code 404
+Server returned 996 characters, of which 150 are below:
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.
+
+[18-12-2018 15:51:10] [Error] WPRSS > 2:
+Sorted: 
+
+
+[18-12-2018 16:51:01] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.tks.ru/news/nearby". The resource could not be retrieved because of a client error with code 404
+Server returned 996 characters, of which 150 are below:
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.
+
+[18-12-2018 16:51:02] [Error] WPRSS > 2:
+Sorted: 
+
+
+[18-12-2018 17:50:50] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.tks.ru/news/nearby". The resource could not be retrieved because of a client error with code 404
+Server returned 996 characters, of which 150 are below:
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.
+
+[18-12-2018 17:50:50] [Error] WPRSS > 2:
+Sorted: 
+
+

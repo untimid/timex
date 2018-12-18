@@ -171,7 +171,7 @@ export default {
       }
     });
 
-    $('a[href="call.html"]').on('click', function(event) {
+    $('a[href="http://call.html"]').on('click', function(event) {
       event.preventDefault();
 
       $('#modalC').addClass('open');

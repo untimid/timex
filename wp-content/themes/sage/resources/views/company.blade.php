@@ -1,7 +1,7 @@
 {{--
   Template Name: О компании
 --}}
-@extends('layouts.app-services')
+@extends('layouts.app-about')
 @section('content')
 @while(have_posts()) @php the_post() @endphp
 

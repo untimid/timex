@@ -35,6 +35,8 @@
       @else
         @include('partials._fake-menu')
       @endif
+
+        @php wp_nav_menu(['theme_location' => 'submenu', 'menu_class' => 'nav2']) @endphp
     </div>
     </div>
 </header>

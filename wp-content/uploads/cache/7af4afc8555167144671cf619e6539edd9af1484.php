@@ -36,6 +36,8 @@
       <?php else: ?>
         <?php echo $__env->make('partials._fake-menu', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
       <?php endif; ?>
+
+        <?php wp_nav_menu(['theme_location' => 'submenu', 'menu_class' => 'nav2']) ?>
     </div>
     </div>
 </header>

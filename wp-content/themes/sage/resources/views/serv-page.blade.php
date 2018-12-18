@@ -5,6 +5,7 @@
 @section('content')
 @while(have_posts()) @php the_post() @endphp
 
+@php wp_nav_menu(['theme_location' => 'submenu', 'menu_class' => 'nav2 serv-nav']) @endphp
 <section class="services pservices" id="section2">
   <span class="double-slash">//</span>
   <h2 class="services-title basic-title" id="services">Наши услуги</h2>

@@ -4,11 +4,11 @@
 body {
   font-family: "Proxima Nova", Arial, sans-serif;
   overflow-x: hidden;
-  width: calc(98% - 4px);
+  width: 100%;
   margin: 0;
   padding: 0;
-  padding-right: calc(1% + 2px);
-  padding-left: calc(1% + 2px);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .visually-hidden {
@@ -215,4 +215,11 @@ body {
   text-decoration: none;
   opacity: 0;
   border: 0;
+}
+
+.header-logo {
+  position: absolute;
+  z-index: 20;
+  left: 7%;
+  top: 83px;
 }
