@@ -1,14 +1,13 @@
 .key-indicators {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: flex-start;
+  width: 93.7%;
   height: auto;
   padding: 0;
-  padding-top: 1%;
-  padding-right: 3%;
-  padding-bottom: 1%;
-  padding-left: 3%;
+  padding-top: 30px;
+  padding-bottom: 42px;
+  padding-left: 6.3%;
   background-color: #ebebeb;
 }
 
@@ -16,7 +15,8 @@
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
-  width: 33%;
+  width: 29.5%;
+  margin-right: 3.2%;
 }
 
 .key-indicators-item .double-slash {

@@ -5,14 +5,18 @@
   justify-content: space-between;
   height: auto;
   list-style: none;
+  margin-bottom: 10px;
+  padding-bottom: 54px;
 }
 
 .partners-item {
   overflow: hidden;
-  min-width: calc(100% / 5 - 15px);
+  min-width: calc(100% / 6);
   padding-right: 15px;
-  padding-bottom: 2%;
+  padding-bottom: 42px;
   opacity: 0.5;
+  text-align: left;
+  padding-top: 66px;
 }
 
 .partners-item img {

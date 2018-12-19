@@ -4,22 +4,22 @@
   flex-wrap: wrap;
   width: 100%;
   height: auto;
-  min-height: 40vw;
-  background-color: blue;
+  min-height: 640px;
+  background-color: #476c94;
   background-image: url("../images/main-slider-boat.jpg");
   background-repeat: no-repeat;
-  background-position: right center;
-  background-size: cover;
+  background-position: 97% 10%;
+  background-size: 85%;
 }
 
 .main-slider-shadow {
   position: relative;
   z-index: 10;
-  width: 36.5%;
+  width: 29.5%;
   height: auto;
-  padding-top: 1.4%;
-  padding-left: 8.5%;
-  transform: skewX(-15deg);
+  padding-top: 1.5%;
+  padding-left: 7%;
+  transform: skewX(-17.5deg);
   background-image: linear-gradient(to top, #375697, #246ba5);
 }
 
@@ -37,13 +37,15 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 80%;
-  transform: skewX(15deg);
+  height: 76.5%;
+  transform: skewX(17.5deg);
 }
 
 .main-slider-content h1 {
   font-family: "Bebas Neue", Arial, sans-serif;
   font-size: 26px;
+  position: relative;
+  top: 10%;
   line-height: 1.31;
   flex-shrink: 2;
   margin: 0;
@@ -55,6 +57,7 @@
 .main-slider-content p {
   font-family: "Bebas Neue", Arial, sans-serif;
   font-size: 72px;
+  width: 84%;
   line-height: 1;
   margin: 0;
   padding: 0;
@@ -81,7 +84,7 @@
   position: absolute;
   top: 40%;
   left: 100%;
-  width: 9%;
+  width: 8%;
   height: 63%;
   opacity: 0.6;
   background-color: #c1974f;
@@ -105,6 +108,15 @@
 
 .main-slider-phone1 {
   padding-right: 20px;
+  position: absolute;
+  bottom: 45px;
+  right: 71%;
+}
+
+.main-slider-phone2 {
+  position: absolute;
+  bottom: 45px;
+  right: 45.4%;
 }
 
 .main-slider-phone1,
@@ -113,7 +125,7 @@
   font-size: 32px;
   line-height: 1.13;
   padding: 0;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   color: #fff;
 }
 
@@ -126,6 +138,15 @@
   padding: 0;
   letter-spacing: 0.1px;
   opacity: 0.95;
+}
+
+.main-slider-controls {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 69px;
+  right: 13%;
 }
 
 .main-slider-controls-left,
@@ -154,6 +175,11 @@
 .news-controls-right:hover {
   cursor: pointer;
   opacity: 0.5;
+}
+
+.carriage-slider .main-navigation-list {
+  padding-top: 14px;
+  padding-bottom: 10px;
 }
 
 @media only screen and (max-width: 850px) {

@@ -27,7 +27,7 @@
               <div class="news-main-shadow-content">
                 <time class="post-date main-post-date" datetime="2018-10-16">16 октября 2018</time>
                 <div class="news-main-shadow-text-cont">
-                  <p class="news-main-title basic-title"><a href="{{ get_permalink() }}"><span class="double-slash">//</span>{{ get_the_title() }}</a></p>
+                  <p class="news-main-title basic-title"><a href="{{ get_permalink() }}"><span class="double-slash">//</span>{{ get_the_title($post) }}</a></p>
                   <p class="news-main-text basic-text">{{ get_the_excerpt() }}</p>
                   <div class="news-controls">
                     <button class="news-controls-left" type="button" name="news-controls-left" id="news-controls-left"></button>

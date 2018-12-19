@@ -1,15 +1,24 @@
+#section2 {
+  padding-top: 8px;
+}
+
+#section2 .services-cont1 {
+  padding-top: 24px;
+}
+
 .services-list {
   display: flex;
   flex-wrap: wrap;
-  width: 71%;
+  width: 115%;
   margin: 0;
   padding: 0;
-  padding-right: 3%;
   list-style: none;
 }
 
 .services-help {
-  width: 26%;
+  width: 29%;
+  position: relative;
+  top: -13px;
 }
 
 .services-help-title {
@@ -18,6 +27,7 @@
   line-height: 1.57;
   opacity: 0.8;
   color: #000;
+  margin-bottom: -14px;
 }
 
 .services-help-text {
@@ -25,6 +35,7 @@
   line-height: 1.57;
   opacity: 0.8;
   color: #000;
+  margin-bottom: 34px;
 }
 
 .services-help-link {
@@ -32,7 +43,7 @@
   font-weight: bold;
   line-height: 1.6;
   display: inline-block;
-  width: 200px;
+  width: 204px;
   padding-top: 8px;
   padding-bottom: 8px;
   text-align: center;
@@ -46,9 +57,9 @@
   display: inline-block;
   width: 30%;
   min-width: 250px;
-  height: auto;
+  height: 381px;
   padding-right: 1%;
-  padding-bottom: 1%;
+  padding-bottom: 9px;
 }
 
 .services-item-cont {
@@ -61,10 +72,10 @@
   flex-direction: column;
   justify-content: space-between;
   width: 90%;
-  height: 20vw;
-  padding-top: 10%;
+  height: 315px;
+  padding-top: 19px;
   padding-right: 5%;
-  padding-bottom: 10%;
+  padding-bottom: 46px;
   padding-left: 5%;
   text-align: center;
   vertical-align: bottom;
@@ -87,8 +98,10 @@
 
 .services-item-circle {
   align-self: center;
-  width: 60%;
-  padding-top: 60%;
+  width: 71%;
+  padding-top: 71%;
+  position: relative;
+  top: -17px;
   transition: 0.3s;
   border-radius: 50%;
   background-color: #fff;
@@ -155,22 +168,23 @@
   flex-wrap: wrap;
   width: auto;
   height: auto;
-  min-height: 27vw;
+  min-height: 541px;
   padding-top: 0;
   padding-left: 0;
   background-image: url("../images/baner-hands.jpg");
   background-repeat: no-repeat;
-  background-position: right center;
-  background-size: cover;
+  background-position: -44% 47%;
+  background-size: 107%;
+  margin-top: 29px;
 }
 
 .services-banner-shadow,
 .basic-banner-shadow {
   position: relative;
   z-index: 10;
-  width: 71%;
+  width: 70.5%;
   height: auto;
-  transform: skewX(-15deg);
+  transform: skewX(-17.5deg);
   background-image: linear-gradient(to top, #375697, #246ba5);
 }
 
@@ -198,10 +212,10 @@
   justify-content: space-between;
   width: 80%;
   height: 80%;
-  padding-top: 2%;
-  padding-bottom: 4%;
-  padding-left: 10%;
-  transform: skewX(15deg);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 7%;
+  transform: skewX(17.5deg);
 }
 
 .services-banner-shadow-rect,
@@ -209,7 +223,7 @@
   position: absolute;
   top: 40%;
   left: 100%;
-  width: 8%;
+  width: 6%;
   height: 63%;
   opacity: 0.6;
   background-color: #c1974f;
@@ -232,6 +246,8 @@
   line-height: 0.96;
   width: 95%;
   color: rgba(255, 255, 255, 0.9);
+  margin-top: 118px;
+  margin-bottom: 33px;
 }
 
 .services-banner-shadow-title span {

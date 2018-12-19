@@ -6,12 +6,21 @@
 }
 
 .about-slider-shadow {
-  width: 39.5%;
-  padding-left: 5.5%;
+  width: 29.5%;
+  padding-left: 7%;
 }
 
 .about-slider-content {
-  width: 60%;
+  width: 84%;
+  justify-content: flex-start;
+}
+
+.about-slider-content p {
+  margin-top: auto;
+}
+
+.about-slider-content img {
+  width: 38%;
 }
 
 .about-slider-content .about-slider-content-normal {

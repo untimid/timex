@@ -1,6 +1,8 @@
 .services-sidebar {
   position: relative;
-  width: 26%;
+  right: 131px;
+  top: 18px;
+  width: 37%;
   height: auto;
 }
 
@@ -36,4 +38,6 @@
   letter-spacing: 0.1px;
   opacity: 0.8;
   color: #000;
+  text-decoration: none;
+  border-bottom: 0.5px solid #000;
 }

@@ -49,7 +49,10 @@
 }
 
 .about-nav {
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 17%;
+  width: 83%;
+  top: 49px;
 }
 
 .about-nav li {
